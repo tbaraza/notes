@@ -1,0 +1,8 @@
+<h2>{{title}}</h2>
+
+<ul>
+  {{#each record as |record|}}
+    <li {{action "showRecord" record}}>{{record}}</li>
+  {{/each}}
+</ul>
+{{yield}}

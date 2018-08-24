@@ -6,6 +6,20 @@
     <title>Notes</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCWMin1irvztvyBgMyAf-o7IMsfygfVJjw",
+        authDomain: "notes-62cc4.firebaseapp.com",
+        databaseURL: "https://notes-62cc4.firebaseio.com",
+        projectId: "notes-62cc4",
+        storageBucket: "",
+        messagingSenderId: "1041752148781"
+      };
+      firebase.initializeApp(config);
+    </script>
 
     {{content-for "head"}}
 
